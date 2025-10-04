@@ -26,8 +26,5 @@ This prototype currently uses rule-based logic, but is structured to support:
 Watch the demo video [here](https://drive.google.com/file/d/1ez91tCZnhBHcLLHCXzTRnLTSoeo3tcdn/view?usp=drivesdk)
 
 ## 📁 How to Run
-```bash
-git clone https://github.com/yourusername/career-skills-chatbot.git
-cd career-skills-chatbot
-pip install -r requirements.txt
+Go to the folder location in cmd and run:-
 python app.py

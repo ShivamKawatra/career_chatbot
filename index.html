@@ -2,14 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AI Career & Skills Advisor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎯 AI Career & Skills Advisor</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="hero">
-    <h1>AI Career & Skills Advisor</h1>
-    <p>Explore career paths, skill roadmaps, and learning resources with the power of AI.</p>
-    <a href="https://huggingface.co/spaces/shivam261205/Career_Advisor" target="_blank" class="launch-btn">Launch Chatbot</a>
+  <div class="container">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>🎯 AI Career & Skills Advisor</h1>
+        <p class="subtitle">Your Personal AI-Powered Career Guidance Platform</p>
+        <p class="description">Discover career paths, assess skills, optimize resumes, and get personalized learning recommendations with advanced AI technology.</p>
+        
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-icon">💬</div>
+            <h3>Smart Chat</h3>
+            <p>Context-aware conversations with memory</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📋</div>
+            <h3>Career Assessment</h3>
+            <p>Personalized career recommendations</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🎯</div>
+            <h3>Skill Analysis</h3>
+            <p>Gap analysis and learning roadmaps</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📄</div>
+            <h3>Resume Tips</h3>
+            <p>Role-specific optimization advice</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📊</div>
+            <h3>Market Insights</h3>
+            <p>Real-time job market analysis</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📚</div>
+            <h3>Learning Resources</h3>
+            <p>Personalized course recommendations</p>
+          </div>
+        </div>
+        
+        <div class="cta-section">
+          <a href="#" onclick="launchChatbot()" class="launch-btn">🚀 Launch AI Advisor</a>
+          <p class="powered-by">Powered by Google Gemini AI</p>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <script>
+    function launchChatbot() {
+      // Replace with your Hugging Face space URL
+      window.open('https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME', '_blank');
+      return false;
+    }
+  </script>
 </body>
 </html>

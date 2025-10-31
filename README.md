@@ -1,9 +1,20 @@
-# 🎯 Enhanced Career & Skills Advisor Chatbot
+---
+title: AI Career & Skills Advisor
+emoji: 🎯
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.0.0"
+app_file: app_hf.py
+pinned: false
+license: mit
+---
 
-## 📌 Overview
+# 🎯 AI Career & Skills Advisor
+
 A comprehensive AI-powered career guidance platform that helps users explore career paths, assess skills, and receive personalized recommendations. Built with **Gradio** and **Google Gemini AI** for intelligent, context-aware conversations.
 
-## 🚀 Enhanced Features
+## 🚀 Features
 
 ### 💬 **Smart Chat Assistant**
 - Context-aware conversations with chat history
@@ -35,36 +46,6 @@ A comprehensive AI-powered career guidance platform that helps users explore car
 - Learning style-based recommendations
 - Platform-specific guidance (courses, books, practice sites)
 
-## 🧠 AI-Powered Intelligence
-- **Google Gemini Pro** integration for advanced natural language understanding
-- Context-aware responses that remember conversation history
-- Personalized recommendations based on user preferences and goals
-
-## 🛠️ Tech Stack
-- **Python** - Core programming language
-- **Gradio** - Interactive web interface
-- **Google Generative AI (Gemini)** - AI conversation engine
-- **python-dotenv** - Environment variable management
-
-## 📁 Installation & Setup
-
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Set up API Key:**
-   - Get your Gemini API key from Google AI Studio
-   - Add it to the `.env` file:
-     ```
-     GEMINI_API_KEY=your_api_key_here
-     ```
-
-3. **Run the Application:**
-   ```bash
-   python app.py
-   ```
-
 ## 🎮 How to Use
 
 1. **Chat Assistant**: Ask any career-related questions for instant AI-powered guidance
@@ -74,15 +55,18 @@ A comprehensive AI-powered career guidance platform that helps users explore car
 5. **Market Insights**: Research job market trends for specific fields and locations
 6. **Learning Resources**: Discover personalized learning paths based on your style
 
-## 🔧 Configuration
-Customize the chatbot behavior by editing `config.py`:
-- Adjust chat history length
-- Modify popular career fields
-- Update learning platform recommendations
+## 🧠 AI-Powered Intelligence
+- **Google Gemini 2.5 Flash** integration for advanced natural language understanding
+- Context-aware responses that remember conversation history
+- Personalized recommendations based on user preferences and goals
+- Error handling and robust API integration
 
-## 🚀 Future Enhancements
-- Integration with job board APIs
-- Voice interaction capabilities
-- Multi-language support
-- Advanced analytics dashboard
-- Mobile app development
+## 🔧 Technical Features
+- Built with Gradio 4.0+ for modern UI/UX
+- Google Generative AI integration
+- Comprehensive error handling
+- Responsive design with tabbed interface
+- Real-time AI responses
+
+## 🚀 Getting Started
+Simply start chatting with the AI assistant or explore the different tabs for specific career guidance tools!
